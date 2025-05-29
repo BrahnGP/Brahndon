@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MASABA - Hospedaje de calidad</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body class="bg-[#F7FFF7] text-[#1A535C] font-sans">
+
+  <!-- HERO SECTION -->
+  <section class="relative h-screen flex items-center justify-center text-center bg-cover bg-center" style="background-image: url('img/hero-bg.jpg');">
+    <div class="bg-black/50 absolute inset-0 z-0"></div>
+    <div class="z-10 text-white px-6">
+      <h1 class="text-5xl md:text-7xl font-bold italic drop-shadow-lg">Descansa donde comienza la aventura</h1>
+      <p class="mt-4 text-xl md:text-2xl">Hospedaje premium al alcance de todos</p>
+    </div>
+  </section>
+
+  <!-- VIDEO -->
+  <section class="px-6 py-12 bg-white text-center">
+    <h2 class="text-3xl font-semibold mb-6">Experiencias Masaba</h2>
+    <video class="mx-auto w-full max-w-4xl rounded-2xl shadow-lg" controls>
+      <source src="videos/masaba-presentacion.mp4" type="video/mp4" />
+      Tu navegador no soporta videos.
+    </video>
+  </section>
+
+  <!-- SERVICIOS -->
+  <section class="px-6 py-12 bg-[#F7FFF7] text-center">
+    <h2 class="text-3xl font-semibold mb-10">Nuestros Servicios</h2>
+    <div class="grid gap-8 md:grid-cols-3">
+      <!-- Servicio 1 -->
+      <div class="bg-white rounded-xl shadow-md p-6">
+        <img src="img/servicio1.jpg" alt="Habitaciones confortables" class="rounded-lg mb-4 h-48 w-full object-cover">
+        <h3 class="text-xl font-bold mb-2">Habitaciones confortables</h3>
+        <p>Ambientes modernos, camas premium, y todas las comodidades para tu descanso.</p>
+      </div>
+      <!-- Servicio 2 -->
+      <div class="bg-white rounded-xl shadow-md p-6">
+        <img src="img/servicio2.jpg" alt="Tours y experiencias" class="rounded-lg mb-4 h-48 w-full object-cover">
+        <h3 class="text-xl font-bold mb-2">Tours y experiencias</h3>
+        <p>Conéctate con la naturaleza y la cultura local con nuestros paquetes guiados.</p>
+      </div>
+      <!-- Servicio 3 -->
+      <div class="bg-white rounded-xl shadow-md p-6">
+        <img src="img/servicio3.jpg" alt="Restaurante local" class="rounded-lg mb-4 h-48 w-full object-cover">
+        <h3 class="text-xl font-bold mb-2">Restaurante local</h3>
+        <p>Sabores auténticos de la región preparados con ingredientes frescos.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- GALERÍA -->
+  <section class="px-6 py-12 bg-white">
+    <h2 class="text-3xl font-semibold text-center mb-10">Galería</h2>
+    <div class="grid gap-4 grid-cols-2 md:grid-cols-3">
+      <img src="img/galeria1.jpg" class="rounded-lg shadow-md object-cover h-48 w-full" alt="Galería Masaba 1">
+      <img src="img/galeria2.jpg" class="rounded-lg shadow-md object-cover h-48 w-full" alt="Galería Masaba 2">
+      <img src="img/galeria3.jpg" class="rounded-lg shadow-md object-cover h-48 w-full" alt="Galería Masaba 3">
+      <img src="img/galeria4.jpg" class="rounded-lg shadow-md object-cover h-48 w-full" alt="Galería Masaba 4">
+      <img src="img/galeria5.jpg" class="rounded-lg shadow-md object-cover h-48 w-full" alt="Galería Masaba 5">
+      <img src="img/galeria6.jpg" class="rounded-lg shadow-md object-cover h-48 w-full" alt="Galería Masaba 6">
+    </div>
+  </section>
+
+  <!-- FORMULARIO -->
+  <section class="px-6 py-12 bg-[#F7FFF7]">
+    <h2 class="text-3xl font-semibold text-center mb-10">Reserva tu estadía</h2>
+    <form class="max-w-3xl mx-auto bg-white p-6 rounded-xl shadow-md space-y-4">
+      <input type="text" placeholder="Nombre completo" class="w-full p-3 border border-gray-300 rounded-lg" required>
+      <input type="email" placeholder="Correo electrónico" class="w-full p-3 border border-gray-300 rounded-lg" required>
+      <input type="date" class="w-full p-3 border border-gray-300 rounded-lg" required>
+      <textarea placeholder="Mensaje o solicitud especial" rows="4" class="w-full p-3 border border-gray-300 rounded-lg"></textarea>
+      <button type="submit" class="bg-[#1A535C] text-white px-6 py-3 rounded-lg hover:bg-[#163c44] transition">Enviar reserva</button>
+    </form>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="bg-[#1A535C] text-white text-center py-6">
+    <p>&copy; 2025 Masaba Agencia de Hospedaje. Todos los derechos reservados.</p>
+    <div class="mt-2 space-x-4">
+      <a href="#" class="hover:underline">Instagram</a>
+      <a href="#" class="hover:underline">Facebook</a>
+      <a href="#" class="hover:underline">WhatsApp</a>
+    </div>
+  </footer>
+
+</body>
+</html>
